@@ -11,6 +11,8 @@
 		CF67FB332BDBEEF500D30D59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67FB322BDBEEF500D30D59 /* ContentView.swift */; };
 		CF67FB352BDBEEF600D30D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF67FB342BDBEEF600D30D59 /* Assets.xcassets */; };
 		CF67FB382BDBEEF600D30D59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF67FB372BDBEEF600D30D59 /* Preview Assets.xcassets */; };
+		CF67FB412BDE169500D30D59 /* FlowerAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67FB402BDE169500D30D59 /* FlowerAnimationView.swift */; };
+		CF67FB432BDE193D00D30D59 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67FB422BDE193D00D30D59 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CF67FB322BDBEEF500D30D59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF67FB342BDBEEF600D30D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF67FB372BDBEEF600D30D59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF67FB402BDE169500D30D59 /* FlowerAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerAnimationView.swift; sourceTree = "<group>"; };
+		CF67FB422BDE193D00D30D59 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		CF67FB2F2BDBEEF500D30D59 /* d1 Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				CF67FB402BDE169500D30D59 /* FlowerAnimationView.swift */,
 				CF67FB302BDBEEF500D30D59 /* d1App.swift */,
 				CF67FB322BDBEEF500D30D59 /* ContentView.swift */,
+				CF67FB422BDE193D00D30D59 /* SliderView.swift */,
 				CF67FB342BDBEEF600D30D59 /* Assets.xcassets */,
 				CF67FB362BDBEEF600D30D59 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF67FB332BDBEEF500D30D59 /* ContentView.swift in Sources */,
+				CF67FB432BDE193D00D30D59 /* SliderView.swift in Sources */,
+				CF67FB412BDE169500D30D59 /* FlowerAnimationView.swift in Sources */,
 				CF67FB312BDBEEF500D30D59 /* d1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@ struct ContentView: View {
     @State var moveOnPath = false
     
     var body: some View {
+        
         VStack {
             Text("Simple Animation")
                 .font(.system(size: 18,weight: .semibold))
@@ -35,15 +36,13 @@ struct ContentView: View {
                 }
                 .rotation3DEffect(
                     .degrees(70),
-                    axis: (x: 10, y: 0.5, z: 0.0)
+                    axis: (x: 20, y: 0, z: 0.0)
                 )
                 Image(systemName: "sun.min")
                     .imageScale(.large)
                     .foregroundStyle(.yellow)
             }
-            //Text("Hello, world!")
         }
-        .padding()
     }
 }
 
