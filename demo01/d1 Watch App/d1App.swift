@@ -11,7 +11,8 @@ import SwiftUI
 struct d1_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ListView()
+            BreatherReplicaView(petalCount: 6)
+//            ListView()
 //            ShimmerEffectView()
 //            ContentView()
 //            SliderView()

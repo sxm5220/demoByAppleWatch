@@ -16,6 +16,7 @@
 		CF67FB452BDE38E200D30D59 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67FB442BDE38E200D30D59 /* ProgressView.swift */; };
 		CF67FB7B2BDE587F00D30D59 /* ShimmerEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67FB7A2BDE587F00D30D59 /* ShimmerEffectView.swift */; };
 		CF67FB7D2BDE5FA100D30D59 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67FB7C2BDE5FA100D30D59 /* ListView.swift */; };
+		CFF20AAE2BDFBAA600674546 /* BreatherReplicaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF20AAD2BDFBAA600674546 /* BreatherReplicaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CF67FB442BDE38E200D30D59 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		CF67FB7A2BDE587F00D30D59 /* ShimmerEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectView.swift; sourceTree = "<group>"; };
 		CF67FB7C2BDE5FA100D30D59 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CFF20AAD2BDFBAA600674546 /* BreatherReplicaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatherReplicaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		CF67FB2F2BDBEEF500D30D59 /* d1 Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				CFF20AAD2BDFBAA600674546 /* BreatherReplicaView.swift */,
 				CF67FB7C2BDE5FA100D30D59 /* ListView.swift */,
 				CF67FB7A2BDE587F00D30D59 /* ShimmerEffectView.swift */,
 				CF67FB442BDE38E200D30D59 /* ProgressView.swift */,
@@ -156,6 +159,7 @@
 				CF67FB432BDE193D00D30D59 /* SliderView.swift in Sources */,
 				CF67FB452BDE38E200D30D59 /* ProgressView.swift in Sources */,
 				CF67FB7D2BDE5FA100D30D59 /* ListView.swift in Sources */,
+				CFF20AAE2BDFBAA600674546 /* BreatherReplicaView.swift in Sources */,
 				CF67FB412BDE169500D30D59 /* FlowerAnimationView.swift in Sources */,
 				CF67FB312BDBEEF500D30D59 /* d1App.swift in Sources */,
 				CF67FB7B2BDE587F00D30D59 /* ShimmerEffectView.swift in Sources */,
