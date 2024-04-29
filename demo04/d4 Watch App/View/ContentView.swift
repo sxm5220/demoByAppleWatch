@@ -51,8 +51,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HStack(alignment: .center, spacing: 6){
+                HStack(alignment: .center, spacing: 3){
                     TextField("Add New Note", text: $text)
+                        .scaledToFit()
+                        
                     Button{
                         guard text.isEmpty == false else { return }
                         let note = Note(id: UUID(), text: text)
@@ -61,7 +63,7 @@ struct ContentView: View {
                         save()
                     }label: {
                         Image(systemName: "plus.circle")
-                            .font(.system(size: 42,weight: .semibold))
+                            .font(.system(size: 30,weight: .semibold))
                     }
                     .fixedSize()
                     .buttonStyle(PlainButtonStyle())
