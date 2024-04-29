@@ -11,21 +11,22 @@ struct Superhero: Identifiable {
     var id = UUID()
     var name: String
     var bgColor: Color
+    var isSelect: Bool
 }
 
-var superheros = [Superhero(name: "A", bgColor: Color.blue),
-                  Superhero(name: "B", bgColor: Color.green),
-                  Superhero(name: "C", bgColor: Color.red),
-                  Superhero(name: "D", bgColor: Color.yellow),
-                  Superhero(name: "E", bgColor: Color.cyan)]
+var superheros = [Superhero(name: "A", bgColor: Color.blue,isSelect: true),
+                  Superhero(name: "B", bgColor: Color.green,isSelect: false),
+                  Superhero(name: "C", bgColor: Color.red,isSelect: false),
+                  Superhero(name: "D", bgColor: Color.yellow,isSelect: false),
+                  Superhero(name: "E", bgColor: Color.cyan,isSelect: false)]
 
 var watchOSControls = [
-    Superhero(name: "wifi", bgColor: .blue),
-    Superhero(name: "iphone.radiowaves.left.and.right", bgColor: .gray.opacity(0.15)),
-    Superhero(name: "battery.25", bgColor: .gray.opacity(0.15)),
-    Superhero(name: "bell.slash.fill", bgColor: .red),
-    Superhero(name: "bed.double.fill", bgColor: .gray.opacity(0.15)),
-    Superhero(name: "moon", bgColor: .purple),
+    Superhero(name: "wifi", bgColor: .blue,isSelect: false),
+    Superhero(name: "iphone.radiowaves.left.and.right", bgColor: .gray.opacity(0.15),isSelect: false),
+    Superhero(name: "battery.25", bgColor: .gray.opacity(0.15),isSelect: false),
+    Superhero(name: "bell.slash.fill", bgColor: .red,isSelect: false),
+    Superhero(name: "bed.double.fill", bgColor: .gray.opacity(0.15),isSelect: false),
+    Superhero(name: "moon", bgColor: .purple,isSelect: false),
 ]
 
 let colums = [
@@ -38,17 +39,20 @@ struct ListView: View {
         VStack{
             List{
                 ForEach(superheros) { superhero in
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                     Text(superhero.name)
-                     .padding()
+                    Button(action: {}, label: {
+                        HStack{
+                            Image(systemName: self.getIcon(superhero.isSelect))
+                            Text(superhero.name)
+                            .padding()
+                        }
                      })
                     .frame(maxWidth: .infinity,maxHeight: .infinity)
-                    .background(superhero.bgColor)
+                    .background(superhero.isSelect ? superhero.bgColor : Color.gray.opacity(0.3))
                     .cornerRadius(10)
                 }
                 .listRowBackground(Color.clear)
                 
-                LazyVGrid(columns: colums, spacing: 10){
+               /* LazyVGrid(columns: colums, spacing: 10){
                     ForEach(watchOSControls) { item in
                         Image(systemName: item.name)
                             .font(.system(size: 25))
@@ -65,9 +69,16 @@ struct ListView: View {
                     .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .center)
                     .background(Color.gray.opacity(0.15))
                     .cornerRadius(25)
-                    .padding(.horizontal)
+                    .padding(.horizontal)*/
             }
         }
+    }
+    
+    func getIcon(_ status: Bool) -> String {
+        if status {
+            return "checkmark.circle.fill"
+        }
+        return "circle"
     }
 }
 
