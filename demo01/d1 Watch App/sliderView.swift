@@ -72,13 +72,9 @@ struct SliderView: View {
                             .font(.system(size: 30))
                             .fontWeight(.regular)
                             .rotationEffect(.degrees(180))
-                        
                     }
-                    
-                    
                 }
             }
-            
         }
     }
     

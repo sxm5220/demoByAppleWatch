@@ -29,3 +29,9 @@
 <p align="left">
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d4/01.gif" width="200" alt="截图" />
 </p>
+
+###### demo05 录音
+*****
+<p align="left">
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d5/01.png" width="200" alt="截图" />
+</p>
