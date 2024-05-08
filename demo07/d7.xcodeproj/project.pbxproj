@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFED8F142BEB6B0700E0111F /* d7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F132BEB6B0700E0111F /* d7App.swift */; };
+		CFED8F162BEB6B0700E0111F /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F152BEB6B0700E0111F /* PurchasedTicketsListView.swift */; };
+		CFED8F182BEB6B0800E0111F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F172BEB6B0800E0111F /* Assets.xcassets */; };
+		CFED8F1B2BEB6B0800E0111F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F1A2BEB6B0800E0111F /* Preview Assets.xcassets */; };
+		CFED8F282BEB6E7700E0111F /* d7WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F272BEB6E7700E0111F /* d7WatchApp.swift */; };
+		CFED8F2A2BEB6E7700E0111F /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F292BEB6E7700E0111F /* PurchasedTicketsListView.swift */; };
+		CFED8F2C2BEB6E7800E0111F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F2B2BEB6E7800E0111F /* Assets.xcassets */; };
+		CFED8F2F2BEB6E7800E0111F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F2E2BEB6E7800E0111F /* Preview Assets.xcassets */; };
+		CFED8F322BEB6E7800E0111F /* d7Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CFED8F252BEB6E7700E0111F /* d7Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CFED8F3A2BEB70C900E0111F /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F392BEB70C900E0111F /* movies.json */; };
+		CFED8F432BEB75F000E0111F /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F422BEB75F000E0111F /* TicketOffice.swift */; };
+		CFED8F452BEB762C00E0111F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F442BEB762C00E0111F /* Movie.swift */; };
+		CFED8F472BEB794800E0111F /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F462BEB794800E0111F /* Connectivity.swift */; };
+		CFED8F492BEB798300E0111F /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F482BEB798300E0111F /* ConnectivityUserInfoKey.swift */; };
+		CFED8F4B2BEB79B700E0111F /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F4A2BEB79B700E0111F /* Delivery.swift */; };
+		CFED8F4D2BEB79E600E0111F /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F4C2BEB79E600E0111F /* QRCode.swift */; };
+		CFED8F512BEB7C7500E0111F /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F502BEB7C7500E0111F /* MovieRow.swift */; };
+		CFED8F532BEB7F4600E0111F /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F522BEB7F4500E0111F /* MovieDetailsView.swift */; };
+		CFED8F572BEB896300E0111F /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F562BEB896300E0111F /* MoviesListView.swift */; };
+		CFED8F5A2BEB8A8A00E0111F /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F592BEB8A8A00E0111F /* MovieInfoView.swift */; };
+		CFED8F5C2BEB8C5E00E0111F /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5B2BEB8C5E00E0111F /* QRCodeView.swift */; };
+		CFED8F5E2BEB8D5F00E0111F /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */; };
+		CFED8F602BEB961800E0111F /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F422BEB75F000E0111F /* TicketOffice.swift */; };
+		CFED8F612BEB991600E0111F /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F562BEB896300E0111F /* MoviesListView.swift */; };
+		CFED8F632BEB992F00E0111F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F442BEB762C00E0111F /* Movie.swift */; };
+		CFED8F652BEB998C00E0111F /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F642BEB998C00E0111F /* MovieDetailsView.swift */; };
+		CFED8F662BEB99D700E0111F /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F592BEB8A8A00E0111F /* MovieInfoView.swift */; };
+		CFED8F672BEB99D700E0111F /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFED8F302BEB6E7800E0111F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFED8F082BEB6B0700E0111F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFED8F242BEB6E7700E0111F;
+			remoteInfo = "d7Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFED8F362BEB6E7800E0111F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CFED8F322BEB6E7800E0111F /* d7Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFED8F102BEB6B0700E0111F /* d7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFED8F132BEB6B0700E0111F /* d7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d7App.swift; sourceTree = "<group>"; };
+		CFED8F152BEB6B0700E0111F /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
+		CFED8F172BEB6B0800E0111F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFED8F1A2BEB6B0800E0111F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFED8F252BEB6E7700E0111F /* d7Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "d7Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFED8F272BEB6E7700E0111F /* d7WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d7WatchApp.swift; sourceTree = "<group>"; };
+		CFED8F292BEB6E7700E0111F /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
+		CFED8F2B2BEB6E7800E0111F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFED8F2E2BEB6E7800E0111F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFED8F392BEB70C900E0111F /* movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		CFED8F422BEB75F000E0111F /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
+		CFED8F442BEB762C00E0111F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CFED8F462BEB794800E0111F /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		CFED8F482BEB798300E0111F /* ConnectivityUserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityUserInfoKey.swift; sourceTree = "<group>"; };
+		CFED8F4A2BEB79B700E0111F /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		CFED8F4C2BEB79E600E0111F /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		CFED8F502BEB7C7500E0111F /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		CFED8F522BEB7F4500E0111F /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		CFED8F562BEB896300E0111F /* MoviesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
+		CFED8F592BEB8A8A00E0111F /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
+		CFED8F5B2BEB8C5E00E0111F /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTicketView.swift; sourceTree = "<group>"; };
+		CFED8F642BEB998C00E0111F /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFED8F0D2BEB6B0700E0111F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFED8F222BEB6E7700E0111F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFED8F072BEB6B0700E0111F = {
+			isa = PBXGroup;
+			children = (
+				CFED8F372BEB704400E0111F /* Shared */,
+				CFED8F122BEB6B0700E0111F /* d7 */,
+				CFED8F262BEB6E7700E0111F /* d7Watch Watch App */,
+				CFED8F112BEB6B0700E0111F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFED8F112BEB6B0700E0111F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F102BEB6B0700E0111F /* d7.app */,
+				CFED8F252BEB6E7700E0111F /* d7Watch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFED8F122BEB6B0700E0111F /* d7 */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F5F2BEB90DF00E0111F /* Model */,
+				CFED8F582BEB8A3C00E0111F /* View */,
+				CFED8F132BEB6B0700E0111F /* d7App.swift */,
+				CFED8F152BEB6B0700E0111F /* PurchasedTicketsListView.swift */,
+				CFED8F562BEB896300E0111F /* MoviesListView.swift */,
+				CFED8F522BEB7F4500E0111F /* MovieDetailsView.swift */,
+				CFED8F172BEB6B0800E0111F /* Assets.xcassets */,
+				CFED8F192BEB6B0800E0111F /* Preview Content */,
+			);
+			path = d7;
+			sourceTree = "<group>";
+		};
+		CFED8F192BEB6B0800E0111F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F1A2BEB6B0800E0111F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFED8F262BEB6E7700E0111F /* d7Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F272BEB6E7700E0111F /* d7WatchApp.swift */,
+				CFED8F292BEB6E7700E0111F /* PurchasedTicketsListView.swift */,
+				CFED8F642BEB998C00E0111F /* MovieDetailsView.swift */,
+				CFED8F2B2BEB6E7800E0111F /* Assets.xcassets */,
+				CFED8F2D2BEB6E7800E0111F /* Preview Content */,
+			);
+			path = "d7Watch Watch App";
+			sourceTree = "<group>";
+		};
+		CFED8F2D2BEB6E7800E0111F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F2E2BEB6E7800E0111F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFED8F372BEB704400E0111F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F392BEB70C900E0111F /* movies.json */,
+				CFED8F422BEB75F000E0111F /* TicketOffice.swift */,
+				CFED8F462BEB794800E0111F /* Connectivity.swift */,
+				CFED8F482BEB798300E0111F /* ConnectivityUserInfoKey.swift */,
+				CFED8F4A2BEB79B700E0111F /* Delivery.swift */,
+				CFED8F4C2BEB79E600E0111F /* QRCode.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CFED8F582BEB8A3C00E0111F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F502BEB7C7500E0111F /* MovieRow.swift */,
+				CFED8F592BEB8A8A00E0111F /* MovieInfoView.swift */,
+				CFED8F5B2BEB8C5E00E0111F /* QRCodeView.swift */,
+				CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFED8F5F2BEB90DF00E0111F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFED8F442BEB762C00E0111F /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFED8F0F2BEB6B0700E0111F /* d7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFED8F1E2BEB6B0800E0111F /* Build configuration list for PBXNativeTarget "d7" */;
+			buildPhases = (
+				CFED8F0C2BEB6B0700E0111F /* Sources */,
+				CFED8F0D2BEB6B0700E0111F /* Frameworks */,
+				CFED8F0E2BEB6B0700E0111F /* Resources */,
+				CFED8F362BEB6E7800E0111F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFED8F312BEB6E7800E0111F /* PBXTargetDependency */,
+			);
+			name = d7;
+			productName = d7;
+			productReference = CFED8F102BEB6B0700E0111F /* d7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFED8F242BEB6E7700E0111F /* d7Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFED8F332BEB6E7800E0111F /* Build configuration list for PBXNativeTarget "d7Watch Watch App" */;
+			buildPhases = (
+				CFED8F212BEB6E7700E0111F /* Sources */,
+				CFED8F222BEB6E7700E0111F /* Frameworks */,
+				CFED8F232BEB6E7700E0111F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "d7Watch Watch App";
+			productName = "d7Watch Watch App";
+			productReference = CFED8F252BEB6E7700E0111F /* d7Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFED8F082BEB6B0700E0111F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CFED8F0F2BEB6B0700E0111F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CFED8F242BEB6E7700E0111F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CFED8F0B2BEB6B0700E0111F /* Build configuration list for PBXProject "d7" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFED8F072BEB6B0700E0111F;
+			productRefGroup = CFED8F112BEB6B0700E0111F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFED8F0F2BEB6B0700E0111F /* d7 */,
+				CFED8F242BEB6E7700E0111F /* d7Watch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFED8F0E2BEB6B0700E0111F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED8F3A2BEB70C900E0111F /* movies.json in Resources */,
+				CFED8F1B2BEB6B0800E0111F /* Preview Assets.xcassets in Resources */,
+				CFED8F182BEB6B0800E0111F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFED8F232BEB6E7700E0111F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED8F2F2BEB6E7800E0111F /* Preview Assets.xcassets in Resources */,
+				CFED8F2C2BEB6E7800E0111F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFED8F0C2BEB6B0700E0111F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED8F162BEB6B0700E0111F /* PurchasedTicketsListView.swift in Sources */,
+				CFED8F512BEB7C7500E0111F /* MovieRow.swift in Sources */,
+				CFED8F5E2BEB8D5F00E0111F /* PurchaseTicketView.swift in Sources */,
+				CFED8F532BEB7F4600E0111F /* MovieDetailsView.swift in Sources */,
+				CFED8F492BEB798300E0111F /* ConnectivityUserInfoKey.swift in Sources */,
+				CFED8F432BEB75F000E0111F /* TicketOffice.swift in Sources */,
+				CFED8F5A2BEB8A8A00E0111F /* MovieInfoView.swift in Sources */,
+				CFED8F472BEB794800E0111F /* Connectivity.swift in Sources */,
+				CFED8F4D2BEB79E600E0111F /* QRCode.swift in Sources */,
+				CFED8F4B2BEB79B700E0111F /* Delivery.swift in Sources */,
+				CFED8F5C2BEB8C5E00E0111F /* QRCodeView.swift in Sources */,
+				CFED8F572BEB896300E0111F /* MoviesListView.swift in Sources */,
+				CFED8F142BEB6B0700E0111F /* d7App.swift in Sources */,
+				CFED8F452BEB762C00E0111F /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFED8F212BEB6E7700E0111F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED8F662BEB99D700E0111F /* MovieInfoView.swift in Sources */,
+				CFED8F672BEB99D700E0111F /* PurchaseTicketView.swift in Sources */,
+				CFED8F652BEB998C00E0111F /* MovieDetailsView.swift in Sources */,
+				CFED8F632BEB992F00E0111F /* Movie.swift in Sources */,
+				CFED8F612BEB991600E0111F /* MoviesListView.swift in Sources */,
+				CFED8F602BEB961800E0111F /* TicketOffice.swift in Sources */,
+				CFED8F2A2BEB6E7700E0111F /* PurchasedTicketsListView.swift in Sources */,
+				CFED8F282BEB6E7700E0111F /* d7WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFED8F312BEB6E7800E0111F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFED8F242BEB6E7700E0111F /* d7Watch Watch App */;
+			targetProxy = CFED8F302BEB6E7800E0111F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFED8F1C2BEB6B0800E0111F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFED8F1D2BEB6B0800E0111F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFED8F1F2BEB6B0800E0111F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"d7/Preview Content\"";
+				DEVELOPMENT_TEAM = E2AHMHGHNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.d7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFED8F202BEB6B0800E0111F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"d7/Preview Content\"";
+				DEVELOPMENT_TEAM = E2AHMHGHNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.d7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFED8F342BEB6E7800E0111F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"d7Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = E2AHMHGHNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = d7Watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sxm.d7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.d7.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		CFED8F352BEB6E7800E0111F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"d7Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = E2AHMHGHNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = d7Watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sxm.d7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.d7.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFED8F0B2BEB6B0700E0111F /* Build configuration list for PBXProject "d7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFED8F1C2BEB6B0800E0111F /* Debug */,
+				CFED8F1D2BEB6B0800E0111F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFED8F1E2BEB6B0800E0111F /* Build configuration list for PBXNativeTarget "d7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFED8F1F2BEB6B0800E0111F /* Debug */,
+				CFED8F202BEB6B0800E0111F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFED8F332BEB6E7800E0111F /* Build configuration list for PBXNativeTarget "d7Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFED8F342BEB6E7800E0111F /* Debug */,
+				CFED8F352BEB6E7800E0111F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFED8F082BEB6B0700E0111F /* Project object */;
+}

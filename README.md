@@ -35,3 +35,9 @@
 <p align="left">
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d5/01.png" width="200" alt="截图" />
 </p>
+
+###### demo06
+*****
+<p align="left">
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d6/01.png" width="200" alt="截图" />
+</p>
