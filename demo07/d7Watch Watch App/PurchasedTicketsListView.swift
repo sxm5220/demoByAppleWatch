@@ -15,12 +15,11 @@ struct PurchasedTicketsListView: View {
             List {
                 ForEach(ticketOffice.purchased) { movie in
                     NavigationLink( value: movie) {
-                        Text(movie.title)
-                            .font(.subheadline)
-                            .foregroundColor(Color.black)
+                        MovieRow(movie: movie)
                     }
                     .listRowBackground(Color.gray.opacity(0.4))
                 }
+                .onDelete(perform: delete)
                 
                 NavigationLink(value: "movies_list") {
                   Image("purchase_tickets")

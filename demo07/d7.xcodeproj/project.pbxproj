@@ -27,14 +27,21 @@
 		CFED8F532BEB7F4600E0111F /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F522BEB7F4500E0111F /* MovieDetailsView.swift */; };
 		CFED8F572BEB896300E0111F /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F562BEB896300E0111F /* MoviesListView.swift */; };
 		CFED8F5A2BEB8A8A00E0111F /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F592BEB8A8A00E0111F /* MovieInfoView.swift */; };
-		CFED8F5C2BEB8C5E00E0111F /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5B2BEB8C5E00E0111F /* QRCodeView.swift */; };
 		CFED8F5E2BEB8D5F00E0111F /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */; };
 		CFED8F602BEB961800E0111F /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F422BEB75F000E0111F /* TicketOffice.swift */; };
-		CFED8F612BEB991600E0111F /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F562BEB896300E0111F /* MoviesListView.swift */; };
 		CFED8F632BEB992F00E0111F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F442BEB762C00E0111F /* Movie.swift */; };
 		CFED8F652BEB998C00E0111F /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F642BEB998C00E0111F /* MovieDetailsView.swift */; };
 		CFED8F662BEB99D700E0111F /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F592BEB8A8A00E0111F /* MovieInfoView.swift */; };
 		CFED8F672BEB99D700E0111F /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */; };
+		CFED8F692BEBB08A00E0111F /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F462BEB794800E0111F /* Connectivity.swift */; };
+		CFED8F6A2BEBB08A00E0111F /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F482BEB798300E0111F /* ConnectivityUserInfoKey.swift */; };
+		CFED8F6B2BEBB0A400E0111F /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F4A2BEB79B700E0111F /* Delivery.swift */; };
+		CFED8F6E2BEBB15E00E0111F /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F5B2BEB8C5E00E0111F /* QRCodeView.swift */; };
+		CFED8F6F2BEBB1D900E0111F /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F392BEB70C900E0111F /* movies.json */; };
+		CFED8F702BEBB25800E0111F /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F4C2BEB79E600E0111F /* QRCode.swift */; };
+		CFED8F762BEC78CF00E0111F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F172BEB6B0800E0111F /* Assets.xcassets */; };
+		CFED8F772BEC792700E0111F /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F562BEB896300E0111F /* MoviesListView.swift */; };
+		CFED8F782BEC79E400E0111F /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F732BEC761D00E0111F /* MovieRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +93,7 @@
 		CFED8F5B2BEB8C5E00E0111F /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		CFED8F5D2BEB8D5F00E0111F /* PurchaseTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTicketView.swift; sourceTree = "<group>"; };
 		CFED8F642BEB998C00E0111F /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		CFED8F732BEC761D00E0111F /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,7 @@
 				CFED8F272BEB6E7700E0111F /* d7WatchApp.swift */,
 				CFED8F292BEB6E7700E0111F /* PurchasedTicketsListView.swift */,
 				CFED8F642BEB998C00E0111F /* MovieDetailsView.swift */,
+				CFED8F732BEC761D00E0111F /* MovieRow.swift */,
 				CFED8F2B2BEB6E7800E0111F /* Assets.xcassets */,
 				CFED8F2D2BEB6E7800E0111F /* Preview Content */,
 			);
@@ -291,6 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFED8F762BEC78CF00E0111F /* Assets.xcassets in Resources */,
+				CFED8F6F2BEBB1D900E0111F /* movies.json in Resources */,
 				CFED8F2F2BEB6E7800E0111F /* Preview Assets.xcassets in Resources */,
 				CFED8F2C2BEB6E7800E0111F /* Assets.xcassets in Resources */,
 			);
@@ -303,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFED8F6E2BEBB15E00E0111F /* QRCodeView.swift in Sources */,
 				CFED8F162BEB6B0700E0111F /* PurchasedTicketsListView.swift in Sources */,
 				CFED8F512BEB7C7500E0111F /* MovieRow.swift in Sources */,
 				CFED8F5E2BEB8D5F00E0111F /* PurchaseTicketView.swift in Sources */,
@@ -313,7 +325,6 @@
 				CFED8F472BEB794800E0111F /* Connectivity.swift in Sources */,
 				CFED8F4D2BEB79E600E0111F /* QRCode.swift in Sources */,
 				CFED8F4B2BEB79B700E0111F /* Delivery.swift in Sources */,
-				CFED8F5C2BEB8C5E00E0111F /* QRCodeView.swift in Sources */,
 				CFED8F572BEB896300E0111F /* MoviesListView.swift in Sources */,
 				CFED8F142BEB6B0700E0111F /* d7App.swift in Sources */,
 				CFED8F452BEB762C00E0111F /* Movie.swift in Sources */,
@@ -324,11 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFED8F782BEC79E400E0111F /* MovieRow.swift in Sources */,
+				CFED8F772BEC792700E0111F /* MoviesListView.swift in Sources */,
+				CFED8F702BEBB25800E0111F /* QRCode.swift in Sources */,
+				CFED8F6B2BEBB0A400E0111F /* Delivery.swift in Sources */,
+				CFED8F692BEBB08A00E0111F /* Connectivity.swift in Sources */,
+				CFED8F6A2BEBB08A00E0111F /* ConnectivityUserInfoKey.swift in Sources */,
 				CFED8F662BEB99D700E0111F /* MovieInfoView.swift in Sources */,
 				CFED8F672BEB99D700E0111F /* PurchaseTicketView.swift in Sources */,
 				CFED8F652BEB998C00E0111F /* MovieDetailsView.swift in Sources */,
 				CFED8F632BEB992F00E0111F /* Movie.swift in Sources */,
-				CFED8F612BEB991600E0111F /* MoviesListView.swift in Sources */,
 				CFED8F602BEB961800E0111F /* TicketOffice.swift in Sources */,
 				CFED8F2A2BEB6E7700E0111F /* PurchasedTicketsListView.swift in Sources */,
 				CFED8F282BEB6E7700E0111F /* d7WatchApp.swift in Sources */,
