@@ -57,3 +57,12 @@
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d7/05-5.png" width="200" alt="截图" />
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d7/06.png" width="200" alt="截图" />
 </p>
+
+###### demo08
+*****
+<p align="left">
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d8/01.png" width="200" alt="截图" />
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d8/02.png" width="200" alt="截图" />
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d8/03.png" width="200" alt="截图" />
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d8/04.png" width="200" alt="截图" />
+</p>
