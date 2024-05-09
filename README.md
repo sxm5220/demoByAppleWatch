@@ -66,3 +66,9 @@
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d8/03.png" width="200" alt="截图" />
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d8/04.png" width="200" alt="截图" />
 </p>
+
+###### demo09 通知
+*****
+<p align="left">
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d9/01.png" width="200" alt="截图" />
+</p>
