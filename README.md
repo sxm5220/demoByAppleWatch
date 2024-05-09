@@ -72,3 +72,10 @@
 <p align="left">
 <img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d9/01.png" width="200" alt="截图" />
 </p>
+
+###### demo10 刷牙倒计时3分钟
+*****
+<p align="left">
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d10/01.png" width="200" alt="截图" />
+<img src="https://github.com/sxm5220/demoByAppleWatch/blob/main/pages/d10/02.png" width="200" alt="截图" />
+</p>

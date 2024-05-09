@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct d9_Watch_AppApp: App {
+    
+    @Environment(\.scenePhase) private var scenePhase
+    
     @WKExtensionDelegateAdaptor(ExtensionDelegate.self)
     private var extensionDelegate
 
@@ -19,6 +22,9 @@ struct d9_Watch_AppApp: App {
             NavigationView {
               ContentView()
             }
+        }
+        .onChange(of: scenePhase) {
+            print("onChange: \($0)")
         }
         
         WKNotificationScene(
