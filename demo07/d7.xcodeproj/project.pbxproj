@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF35BFC12BF1D369008F15AF /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35BFBD2BF1D369008F15AF /* JokeService.swift */; };
+		CF35BFC22BF1D369008F15AF /* RefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35BFBE2BF1D369008F15AF /* RefreshableView.swift */; };
+		CF35BFC32BF1D369008F15AF /* serviceMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35BFBF2BF1D369008F15AF /* serviceMainView.swift */; };
 		CFED8F142BEB6B0700E0111F /* d7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F132BEB6B0700E0111F /* d7App.swift */; };
 		CFED8F162BEB6B0700E0111F /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED8F152BEB6B0700E0111F /* PurchasedTicketsListView.swift */; };
 		CFED8F182BEB6B0800E0111F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED8F172BEB6B0800E0111F /* Assets.xcassets */; };
@@ -69,6 +72,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF35BFBD2BF1D369008F15AF /* JokeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
+		CF35BFBE2BF1D369008F15AF /* RefreshableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshableView.swift; sourceTree = "<group>"; };
+		CF35BFBF2BF1D369008F15AF /* serviceMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = serviceMainView.swift; sourceTree = "<group>"; };
 		CFED8F102BEB6B0700E0111F /* d7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFED8F132BEB6B0700E0111F /* d7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d7App.swift; sourceTree = "<group>"; };
 		CFED8F152BEB6B0700E0111F /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
@@ -114,9 +120,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF35BFC02BF1D369008F15AF /* connRequst */ = {
+			isa = PBXGroup;
+			children = (
+				CF35BFBD2BF1D369008F15AF /* JokeService.swift */,
+				CF35BFBE2BF1D369008F15AF /* RefreshableView.swift */,
+				CF35BFBF2BF1D369008F15AF /* serviceMainView.swift */,
+			);
+			path = connRequst;
+			sourceTree = "<group>";
+		};
 		CFED8F072BEB6B0700E0111F = {
 			isa = PBXGroup;
 			children = (
+				CF35BFC02BF1D369008F15AF /* connRequst */,
 				CFED8F372BEB704400E0111F /* Shared */,
 				CFED8F122BEB6B0700E0111F /* d7 */,
 				CFED8F262BEB6E7700E0111F /* d7Watch Watch App */,
@@ -317,6 +334,7 @@
 				CFED8F6E2BEBB15E00E0111F /* QRCodeView.swift in Sources */,
 				CFED8F162BEB6B0700E0111F /* PurchasedTicketsListView.swift in Sources */,
 				CFED8F512BEB7C7500E0111F /* MovieRow.swift in Sources */,
+				CF35BFC12BF1D369008F15AF /* JokeService.swift in Sources */,
 				CFED8F5E2BEB8D5F00E0111F /* PurchaseTicketView.swift in Sources */,
 				CFED8F532BEB7F4600E0111F /* MovieDetailsView.swift in Sources */,
 				CFED8F492BEB798300E0111F /* ConnectivityUserInfoKey.swift in Sources */,
@@ -327,6 +345,8 @@
 				CFED8F4B2BEB79B700E0111F /* Delivery.swift in Sources */,
 				CFED8F572BEB896300E0111F /* MoviesListView.swift in Sources */,
 				CFED8F142BEB6B0700E0111F /* d7App.swift in Sources */,
+				CF35BFC22BF1D369008F15AF /* RefreshableView.swift in Sources */,
+				CF35BFC32BF1D369008F15AF /* serviceMainView.swift in Sources */,
 				CFED8F452BEB762C00E0111F /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

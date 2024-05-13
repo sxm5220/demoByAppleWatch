@@ -16,6 +16,10 @@ struct d7App: App {
     }
     
     var body: some Scene {
+        //网络下拉刷新请求
+        //RefreshableView()
+        //网络请求
+        //serviceMainView
         WindowGroup {
             PurchasedTicketsListView()
         }
