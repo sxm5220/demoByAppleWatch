@@ -1,0 +1,34 @@
+//
+//  GesturesView.swift
+//  demo07 Watch App
+//
+//  Created by 宋晓明 on 2025/9/26.
+//
+
+import SwiftUI
+
+struct GesturesView: View {
+    // Variables
+    @State private var coverToMuteEnabled = true
+    
+    var body: some View {
+        List {
+            Section {
+                NavigationLink(destination: {}, label: {
+                    RowLabel(title: "Double Tap", subtitle: "On")
+                })
+            }
+            
+            Section(content: {
+                Toggle("Cover to Mute", isOn: $coverToMuteEnabled)
+            }, footer: {
+                Text("When this is on and you receive an alert, you can mute Apple Watch by resting your palm on the display to cover it for at least 3 seconds. You'll feel a tap to confirm that mute is enabled.")
+            })
+        }
+        .navigationTitle("Gestures")
+    }
+}
+
+#Preview {
+    GesturesView()
+}

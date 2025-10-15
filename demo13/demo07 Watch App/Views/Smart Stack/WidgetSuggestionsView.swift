@@ -1,0 +1,41 @@
+//
+//  WidgetSuggestionsView.swift
+//  demo07 Watch App
+//
+//  Created by 宋晓明 on 2025/9/26.
+//
+
+import SwiftUI
+
+struct WidgetSuggestionsView: View {
+    @State private var allowWidgetSuggestions = true
+    let path = "/System/Library/PrivateFrameworks/SmartStackSettingsUI.framework"
+    
+    var body: some View {
+        List {
+            Section {
+                Toggle("SMART_STACK_SUGGESTION_SETTINGS_GLOBAL_TOGGLE_CELL_TITLE".localized(path: path), isOn: $allowWidgetSuggestions)
+            } footer: {
+                Text("SMART_STACK_SUGGESTION_SETTINGS_GLOBAL_TOGGLE_FOOTER".localized(path: path))
+            }
+            
+            Section("SMART_STACK_SUGGESTION_SETTINGS_APPS_SECTION_HEADER".localized(path: path)) {
+                SymbolLink(title: "Calendar", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "Calendar", content: EmptyView())
+                SymbolLink(title: "Check In", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.SafetyMonitorApp", content: EmptyView())
+                SymbolLink(title: "Medications", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.NanoMedications", content: EmptyView())
+                SymbolLink(title: "Music Recognition", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.nanomusicrecognition", content: EmptyView())
+                SymbolLink(title: "News", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.nanonews", content: EmptyView())
+                SymbolLink(title: "Now Playing", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.NanoNowPlaying", content: EmptyView())
+                SymbolLink(title: "Shortcuts", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.shortcuts.watch", content: EmptyView())
+                SymbolLink(title: "Translate", subtitle: "SMART_STACK_SUGGESTION_SETTINGS_APP_GROUP_STATUS_ALLOW_ALL".localized(path: path), icon: "com.apple.NanoTranslate", content: EmptyView())
+            }
+        }
+        .navigationTitle("SMART_STACK_SUGGESTION_SETTINGS_NAVIGATION_TITLE".localized(path: path))
+    }
+}
+
+#Preview {
+    NavigationStack{
+        WidgetSuggestionsView()
+    }
+}

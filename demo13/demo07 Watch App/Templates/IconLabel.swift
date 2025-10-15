@@ -1,0 +1,45 @@
+//
+//  IconLabel.swift
+//  demo07 Watch App
+//
+//  Created by 宋晓明 on 2025/9/26.
+//
+
+import SwiftUI
+
+struct IconLabel: View {
+    var title = "Calculator"
+    var icon = "com.apple.NanoCalculator.watchkitapp"
+    
+    var body: some View {
+        HStack(spacing: 8) {
+            if icon.contains("com.apple.graphic-icon") {
+                if let asset = UIImage.icon(forUTI: icon) {
+                    Image(uiImage: asset)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 19)
+                }
+            } else if icon.contains("com.apple") {
+                if let asset = UIImage.icon(forBundleID: icon) {
+                    Image(uiImage: asset)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 19)
+                }
+            } else {
+                Image(icon)
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
+                    .frame(height: 17)
+            }
+            Text(title)
+        }
+        .padding(.leading,-1)
+    }
+}
+
+#Preview {
+    IconLabel()
+}
